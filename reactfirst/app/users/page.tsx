@@ -1,9 +1,5 @@
 import React from 'react'
-
-interface User{
-    id:number;
-    name:string;
-}
+import {User} from '@/app/types/User'
 
 const UsersPage = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users')
